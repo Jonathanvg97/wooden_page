@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definición de variables de color */
+:root {
+    --color-menu: #F2F2F2; 
+    --color-secondary: #4682b4; 
+    --color-background: cadetblue; 
+  }
+  
+body {
+  background-color: cadetblue;
+}
+
+/* Clases personalizadas que utilizan las variables de color */
+.bg-color-menu {
+    background-color: var(--color-menu);
+  }
