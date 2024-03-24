@@ -5,7 +5,7 @@ import { BannerLayer } from "react-scroll-parallax/dist/components/ParallaxBanne
 export const AdvancedBanner = () => {
   const background: BannerLayer = {
     image:
-      "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-background.jpg",
+      "https://www.checkatrade.com/blog/wp-content/uploads/2020/07/wooden-flooring-cost-featured.jpeg",
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, "easeOutCubic"],
@@ -19,7 +19,7 @@ export const AdvancedBanner = () => {
     expanded: false,
     children: (
       <div className="inset center">
-        <h1 className="headline white">Hello World!</h1>
+        <h1 className="headline white">Wooden Page</h1>
       </div>
     ),
   };

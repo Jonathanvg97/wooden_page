@@ -1,3 +1,4 @@
+import React from "react";
 import "./globals.css";
 import { montserrat } from "./ui/fonts/fonts";
 
@@ -8,7 +9,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-       <body className={`${montserrat.className} antialiased`}>{children}</body>
+      <body className={`${montserrat.className} antialiased`}>{children}</body>
     </html>
   );
 }

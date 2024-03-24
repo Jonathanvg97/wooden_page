@@ -17,7 +17,14 @@ export const SideNav = () => {
   return (
     <div className="SideNav w-full h-16 bg-color-menu items-center flex overflow-hidden">
       <div className="justify-end w-full flex items-center ">
-        <div className={`mr-10 flex absolute cursor-pointer scale-100 hover:scale-110 ${menuOpen && "rotate-90 duration-200"}`}>
+        <h1 className="logo font-extrabold text-3xl w-full justify-start ml-5">
+          Logo
+        </h1>
+        <div
+          className={`mr-10 flex absolute cursor-pointer scale-100 hover:scale-110 ${
+            menuOpen && "rotate-90 duration-200"
+          }`}
+        >
           <button onClick={() => handleMenu()}>
             <IconMenu />
           </button>
@@ -30,7 +37,10 @@ export const SideNav = () => {
         >
           {OPTIONS_SIDENAV.map((option, id) => {
             return (
-              <ul className="flex font-bold w-full text-base hover:text-lg cursor-pointer" key={id}>
+              <ul
+                className="flex font-bold w-full text-base hover:text-lg cursor-pointer"
+                key={id}
+              >
                 {option.label}
               </ul>
             );
