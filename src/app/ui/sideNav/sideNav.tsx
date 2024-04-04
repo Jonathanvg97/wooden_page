@@ -15,8 +15,8 @@ export const SideNav = () => {
   };
 
   return (
-    <div className="SideNav w-full h-16 bg-color-menu items-center flex overflow-hidden">
-      <div className="justify-end w-full flex items-center ">
+    <div className="SideNav w-full h-16 bg-color-menu items-center flex overflow-hidden ">
+      <div className="justify-end w-full flex items-center  ">
         <h1 className="logo font-extrabold text-3xl w-full justify-start ml-5">
           Logo
         </h1>
